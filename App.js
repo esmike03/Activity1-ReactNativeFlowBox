@@ -26,9 +26,10 @@ export default function App() {
         </View>
 
       </View>
+
         <View style={styles.container2}>
           <Text style={[
-          {color: 'black' ,fontSize: 25}
+          {color: 'black' ,fontSize: 25, marginRight: 230}
           ]}>My Subjects</Text>
 
           <View style={styles.subheader}>
