@@ -4,7 +4,8 @@ export const styles = StyleSheet.create({
     container: {
 
       backgroundColor: '#fff',
-      marginLeft: 20
+      alignItems: 'center',
+      justifyContent: 'space-evenly'
       
     },
     container2: {
@@ -12,7 +13,7 @@ export const styles = StyleSheet.create({
         backgroundColor: '#fff',
         justifyContent: 'flex-start',
         marginTop: 20,
-        marginRight: 20
+        alignItems: 'center'
         
     },
     mainheader: {
@@ -31,7 +32,8 @@ export const styles = StyleSheet.create({
         borderTopLeftRadius: 15,
         borderBottomLeftRadius: 15,
         borderTopRightRadius: 15,
-        flexDirection: 'row'
+        flexDirection: 'row',
+        alignItems: 'center'
 
     },
     name: {
