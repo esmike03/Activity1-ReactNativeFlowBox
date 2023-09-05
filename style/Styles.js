@@ -5,7 +5,9 @@ export const styles = StyleSheet.create({
 
       backgroundColor: '#fff',
       alignItems: 'center',
-      justifyContent: 'space-evenly'
+      flexDirection: 'column',
+      justifyContent: 'flex-start',
+      flex: 1
       
     },
     container2: {
@@ -21,7 +23,8 @@ export const styles = StyleSheet.create({
         height: 230,
         marginTop: 40,
         borderTopRightRadius: 50,
-        borderBottomRightRadius: 50
+        borderBottomRightRadius: 50,
+    
     },
     subheader: {
         width: 370,
