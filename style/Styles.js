@@ -36,7 +36,8 @@ export const styles = StyleSheet.create({
         borderBottomLeftRadius: 15,
         borderTopRightRadius: 15,
         flexDirection: 'row',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'center'
 
     },
     name: {
@@ -50,14 +51,23 @@ export const styles = StyleSheet.create({
         color: 'black' ,
         fontSize: 20,
         fontWeight: 'bold',
-        flex: 1,
-        marginLeft: 25,
-        marginTop: 25,
+       
+ 
     
     },
     subtxt2: {
         fontSize: 13,
-        marginRight: 40,
-        marginTop: 23 
+        marginLeft: 23
+        
+    },
+    contentflex: {
+
+        flex: 1,
+        flexDirection: 'row',
+        marginLeft: 25,
+        
+        alignItems: 'flex-start'
     }
   });
+
+

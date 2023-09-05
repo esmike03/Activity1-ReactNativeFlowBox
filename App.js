@@ -9,7 +9,7 @@ export default function App() {
 
         <View style={[
           styles.mainheader,
-          {backgroundColor: '#c0392b'}
+          {backgroundColor: '#27005D'}
         ]}>
 
         <View style={styles.contentmargin}>
@@ -21,7 +21,7 @@ export default function App() {
             {fontSize: 30, fontWeight: "bold"}
           ]}>Earl Mike H. Sarabia</Text>
           <Text style={[styles.name,
-            {fontSize: 20}
+            {fontSize: 20, color: '#FFC436'}
           ]}>Information Technology 3</Text>
         </View>
 
@@ -33,37 +33,48 @@ export default function App() {
           ]}>My Subjects</Text>
 
           <View style={styles.subheader}>
-
-          <Text style={styles.subtext}>ELEC 2</Text>
-          <Text style={styles.subtxt2}>Web Development/ Web Enterprise{'\n'}Units: 3</Text>
+            <View style={styles.contentflex}>
+            
+              <Text style={styles.subtext}>ELEC 2</Text>
+                <Text style={styles.subtxt2}>Web Development/ Web Enterprise{'\n'}Units: 3</Text>
+                
+            </View>
           </View>
 
           <View style={styles.subheader}>
-          <Text style={styles.subtext}>ELEC 3</Text>
-          <Text style={[
-              {marginRight: 123, marginTop: 23}   
-            ]}>Mobile Application{'\n'}Units: 3</Text>
+              <View style={styles.contentflex}>
+                
+              <Text style={styles.subtext}>ELEC 3</Text>
+                <Text style={styles.subtxt2}>Mobile Application using Google Platform{'\n'}Units: 3</Text>
+                
+            </View>
           </View>
 
           <View style={styles.subheader}>
-          <Text style={styles.subtext}>IT 311</Text>
-          <Text style={[
-            {marginRight: 105, marginTop: 23}   
-          ]}>Software Engineering{'\n'}Units: 3</Text>
+            <View style={styles.contentflex}>
+              
+                <Text style={styles.subtext}>IT 311</Text>
+                  <Text style={styles.subtxt2}>Software Engineering{'\n'}Units: 3</Text>
+                  
+              </View>
           </View>
 
           <View style={styles.subheader}>
-          <Text style={styles.subtext}>IT 312</Text>
-          <Text style={[
-            {marginRight: 27, marginTop: 23, fontSize: 13}   
-          ]}>Information Assurance and Security 2{'\n'}Units: 3</Text>
+            <View style={styles.contentflex}>
+              
+                <Text style={styles.subtext}>IT 312</Text>
+                  <Text style={styles.subtxt2}>Information Assurance and Security 2{'\n'}Units: 3</Text>
+                  
+              </View>
           </View>
 
           <View style={styles.subheader}>
-          <Text style={styles.subtext}>IT 313</Text>
-          <Text style={[
-            {marginRight: 107, marginTop: 23}   
-          ]}>Quantitative Methods{'\n'}Units: 3</Text>
+              <View style={styles.contentflex}>
+                
+              <Text style={styles.subtext}>RESEARCH</Text>
+                <Text style={styles.subtxt2}>Methods of Research{'\n'}Units: 3</Text>
+                
+            </View>
           </View>
           <Text style={[
             {color: '#525FE1' ,
